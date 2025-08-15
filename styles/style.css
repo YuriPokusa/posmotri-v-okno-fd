@@ -78,6 +78,7 @@ ol {
   align-items: end;
   width: 1140px;
   gap: 30px;
+  margin: 0 auto;
 }
 
 .content__accent {
@@ -166,6 +167,7 @@ ol {
   font-weight: 700;
   overflow: hidden;
   white-space: nowrap;
+  width: 100%;
   text-overflow: ellipsis;
 }
 
@@ -232,10 +234,6 @@ ol {
   gap: 5px;
   cursor: pointer;
   align-items: center;
-}
-
-.search-form__label:has(:focus) {
-  outline: 1px solid white;
 }
 
 .search-form__label:has(:focus-visible) {
